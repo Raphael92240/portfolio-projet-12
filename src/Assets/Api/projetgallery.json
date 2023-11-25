@@ -1,0 +1,50 @@
+[
+    {
+        "id": "c67ab8a7",
+        "title": "projet 1",
+        "cover": "dpsmarket.png",
+        "projetfinish": "city4trip.png",
+        "projetdev": "city4trip-2.png",
+        "description": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+        "projetfinishdescription": [
+            "Développement sous Wordpress",
+            "Creation de plugin PHP",
+            "Animation des pages par JavaScript (jQuery) / AJAX",
+            "Référencement naturel SEO",
+            "Site Responsive (compatible tous supports)",
+            "HTML5 - CSS"
+        ]
+    },
+    {
+        "id": "b9123946",
+        "title": "projet 2",
+        "cover": "franceagrimer.png",
+        "projetfinish": "city4trip.png",
+        "projetdev": "city4trip-2.png",
+        "description": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+        "projetfinishdescription": [
+            "Développement sous Wordpress",
+            "Creation de plugin PHP",
+            "Animation des pages par JavaScript (jQuery) / AJAX",
+            "Référencement naturel SEO",
+            "Site Responsive (compatible tous supports)",
+            "HTML5 - CSS"
+        ]
+    },
+    {
+        "id": "46d188c5",
+        "title": "projet 3",
+        "cover": "urbanmarginal.png",
+        "projetfinish": "city4trip.png",
+        "projetdev": "city4trip-2.png",
+        "description": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+        "projetfinishdescription": [
+            "Développement sous Wordpress",
+            "Creation de plugin PHP",
+            "Animation des pages par JavaScript (jQuery) / AJAX",
+            "Référencement naturel SEO",
+            "Site Responsive (compatible tous supports)",
+            "HTML5 - CSS"
+        ]
+    }
+]

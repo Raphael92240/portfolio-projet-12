@@ -1,0 +1,69 @@
+.contactpage {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 7em 2em;
+    gap: 2em;
+}
+
+.contactinformation {
+    width: 50%;
+    text-align: start;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontactpage {
+    width: 50%;
+    text-align: start;
+    gap: 2em;
+}
+
+.formnamedisplay {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+}
+
+.inputname {
+    width: 50%;
+}
+
+.formdisplay {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    gap: 0.5em;
+}
+
+.buttoncontactpage {
+    padding: 10px;
+    background: #913fe2;
+    font-weight: bold;
+}
+
+@media (max-width: 540px) {
+
+    .contactpage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactinformation {
+        width: 100%;
+    }
+
+    .formcontactpage {
+        width: 100%;
+    }
+
+    .inputname {
+        width: 50%;
+    }
+
+    .formnamedisplay {
+        align-items: end;
+    }
+}

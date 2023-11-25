@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-top: 2px solid #ccc;
+    padding: 1em 2em;
+    padding-left: 4vw;
+}
+
+.titrefooter {
+    display: flex;
+
+}
+
+.infopersonelfooter {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2em;
+}

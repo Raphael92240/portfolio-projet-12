@@ -1,0 +1,51 @@
+.projetdisplay {
+    display: flex;
+    flex-direction: row;
+}
+
+.projetdisplayimageconaatiner {
+    width: 50%;
+}
+
+.projetdisplayimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infoprojetcomplete {
+
+    flex-direction: row-reverse;
+}
+
+.projetdescriptif {
+    width: 50%;
+}
+
+.completedreal {
+    width: 50%;
+}
+
+.listcompetence {
+    list-style: none;
+}
+
+@media (max-width: 920px) {
+    .listcompetence {
+        text-align: start;
+        list-style: circle;
+    }
+}
+
+@media (max-width: 500px) {
+    .projetdisplay {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projetdisplayimageconaatiner,
+    .completedreal,
+    .projetdescriptif {
+        width: 100%;
+    }
+}

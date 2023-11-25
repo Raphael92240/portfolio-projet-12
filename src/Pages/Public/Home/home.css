@@ -1,0 +1,70 @@
+.displaycontainerpresentation {
+    background: #222;
+    padding: 1em 0;
+}
+
+.containerpresentation {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+
+
+.containerprojet {
+    padding: 1em 2em;
+}
+
+.containerprojettitle {
+    text-align: center;
+}
+
+.liste-projet {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.liste-projet a {
+    width: 50%;
+}
+
+
+.displaycontainercontact {
+    background: #222;
+    padding: 3em 2em;
+}
+
+.containercontact {
+
+    width: 50%;
+    text-align: start;
+}
+
+.contactparagraphe {
+    padding: 0 0 1em 0;
+}
+
+.containercontactbutton {
+    padding: 10px;
+    background: #913fe2;
+}
+
+@media (max-width: 920px) {
+
+    .containercontact {
+        width: auto;
+    }
+
+    .liste-projet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .liste-projet a {
+        width: 100%;
+    }
+}

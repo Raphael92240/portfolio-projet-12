@@ -1,0 +1,24 @@
+.aboutpage {
+    padding: 1em 2em;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutimagedisplay {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.competencelist {
+    list-style: none;
+}
+
+@media (max-width: 500px) {
+    .aboutme {
+        flex-direction: column;
+    }
+}
