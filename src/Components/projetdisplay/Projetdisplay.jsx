@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projetdisplay.css';
 
-const Projetdisplay = ({ image, description, view }) => {
+const Projetdisplay = ({ image, description, view, liens }) => {
     console.log(image)
     console.log(description)
     console.log(view)
@@ -21,6 +21,9 @@ const Projetdisplay = ({ image, description, view }) => {
                 <p>
                     {description}
                 </p>
+                <button className='buttonprojetdisplay' onClick={() => window.open(liens, '_blank')}>
+                    acceder au visuel du projet
+                </button>
             </div>
         </div>
     )

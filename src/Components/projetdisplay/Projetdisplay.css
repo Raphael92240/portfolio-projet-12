@@ -30,6 +30,12 @@
     list-style: none;
 }
 
+.buttonprojetdisplay {
+    padding: 10px;
+    background: #913fe2;
+    font-weight: bold;
+}
+
 @media (max-width: 920px) {
     .listcompetence {
         text-align: start;

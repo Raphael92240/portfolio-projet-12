@@ -26,10 +26,11 @@
     list-style: none;
     display: flex;
     flex-flow: row wrap;
+    gap: 10px;
 }
 
 .liste-projet a {
-    width: 50%;
+    width: 48%;
 }
 
 
@@ -62,6 +63,8 @@
     .liste-projet {
         display: flex;
         flex-direction: column;
+        padding: 0;
+
     }
 
     .liste-projet a {

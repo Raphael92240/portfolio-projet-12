@@ -1,3 +1,8 @@
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #913fe2 #16151d;
+}
+
 html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

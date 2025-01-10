@@ -1,8 +1,32 @@
 import React from 'react';
-
+// import axios from 'axios';
 import './contact.css';
 
 const Contact = () => {
+    // const [formData, setFormData] = useState({
+    //     firstname: '',
+    //     lastname: '',
+    //     email: '',
+    //     object: '',
+    //     message: '',
+    // });
+
+    // const handleInputChange = (event) => {
+    //     const { id, value } = event.target;
+    //     setFormData({ ...formData, [id]: value });
+    // };
+
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
+    //     axios.post('/send-email', formData)
+    //         .then((response) => {
+    //             // Handle the response here (e.g., show success message)
+    //         })
+    //         .catch((error) => {
+    //             // Handle any errors here
+    //         });
+    // };
+
     return (
         <main>
             <section className="contactpage">
@@ -19,7 +43,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='formcontactpage'>
-                    <form>
+                    <form >
                         <div className='formnamedisplay'>
                             <div className='formdisplay inputname'>
                                 <label htmlFor="firstname">Prénom :</label>
@@ -31,18 +55,18 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='formdisplay'>
-                            <label htmlFor="email">Email:</label>
+                            <label htmlFor="email">Email :</label>
                             <input type="email" id="email" required />
                         </div>
                         <div className='formdisplay'>
-                            <label htmlFor="object">Objet:</label>
+                            <label htmlFor="object">Objet :</label>
                             <input id="object" required />
                         </div>
                         <div className='formdisplay'>
-                            <label htmlFor="message">Message:</label>
+                            <label htmlFor="message">Message :</label>
                             <textarea id="message" required />
                         </div>
-                        <button className='buttoncontactpage'> confirmer </button>
+                        <button type="submit" className='buttoncontactpage'>Confirmer</button>
                     </form>
                 </div>
             </section>

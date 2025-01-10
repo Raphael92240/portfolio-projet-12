@@ -47,7 +47,7 @@ const Projet = () => {
 
             <section className="projet">
                 <h2>{projet.title}</h2>
-                <Projetdisplay image={projet.projetdev} description={projet.description} view="dev" />
+                <Projetdisplay image={projet.projetdev} description={projet.description} view="dev" liens={projet.lienweb} />
                 <Projetdisplay image={projet.projetfinish} description={projet.projetfinishdescription} view="completed" />
 
             </section>
